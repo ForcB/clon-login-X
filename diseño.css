@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300;0,500;0,700;1,400&display=swap");
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: "Merriweather Sans", sans-serif;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+  font-size: 11px;
+  margin: 4px 8px;
+  font-weight: 200;
+}
+.contenedor {
+  display: flex;
+  width: 100%;
+  justify-content: start;
+  align-items: center;
+}
+.contenedor__img {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.twitter {
+  width: 388px;
+  margin: 86px;
+}
+.contenedor2 {
+  width: 50%;
+}
+.contenedor2__contenedor {
+  max-width: 522px;
+}
+.contenedor2__h1 {
+  font-size: 64px;
+  font-weight: 700;
+  margin-bottom: 48px;
+  margin-top: 100px;
+}
+.contenedor2__h2 {
+  font-size: 31px;
+  margin-bottom: 32px;
+}
+.contenedor2__section1 {
+  display: flex;
+  flex-direction: column;
+}
+.button {
+  display: flex;
+  width: 298px;
+  height: 38px;
+  padding: 8px;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 25px;
+  border: 0.667px solid rgb(207, 217, 222);
+  background-color: #fff;
+  margin: 6px 0;
+  cursor: pointer;
+}
+.button:hover {
+  background-color: rgb(207, 217, 222);
+}
+.contenedor2__contenedor123 {
+  display: flex;
+  align-items: center;
+}
+.contenedor2__p {
+  font-size: 10px;
+}
+.contenedor2__img {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.perfil_img {
+  margin-right: 7px;
+}
+.apple_img {
+  border-radius: 0;
+  object-fit: contain;
+  margin-right: 5px;
+}
+.contenedor2__boton_apple {
+  align-items: center;
+  justify-content: center;
+}
+.contenedor_parrafo {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+}
+.contenedor2__O {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5px;
+  width: 298px;
+  height: 20px;
+}
+.contenedor2__O > p {
+  font-size: 15px;
+  margin: 0 10px;
+}
+.contenedor2__O > div {
+  height: 1px;
+  background-color: rgb(207, 217, 222);
+  width: 137px;
+}
+.contenedor2__crear {
+  justify-content: center;
+  background-color: rgb(29, 155, 240);
+  color: #fff;
+}
+.contenedor2__politicas {
+  font-size: 9px;
+  margin-bottom: 20px;
+  width: 298px;
+}
+.contenedor2__politicas > a {
+  margin: 0;
+  font-size: 9px;
+  color: rgb(29, 155, 240);
+}
+.confirmar_cuenta {
+  margin: 40px 0 20px;
+  font-size: 16px;
+}
+.btn_iniciar {
+  margin: 0 0 85px 0;
+  align-items: center;
+  justify-content: center;
+  color:rgb(29, 155, 240);
+}
+.footer {
+  display: flex;
+  align-items: center;
+  width: 100vw;
+  justify-content: center;
+}
+.footer__nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.footer__nav > p{
+    font-size: 11px;
+}
